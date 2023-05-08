@@ -1,0 +1,27 @@
+.searching-talents{
+    text-align: center;
+    padding: 6rem 7rem;
+    span{
+        color: $red;
+        font-size: 0.875rem;
+        background-color: $light-gray;
+        border-radius: 1rem;
+        padding: 0.25rem 0.75rem;
+    }
+    h2{
+        font-weight: 600;
+        font-size: 2rem;
+        color: $black;
+        margin-top: 1rem;
+        margin-bottom: 1.25rem;
+    }
+    p{
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: $gray;
+        margin-bottom: 4rem;
+    }
+    img{
+        width: 100%;
+    }
+}
