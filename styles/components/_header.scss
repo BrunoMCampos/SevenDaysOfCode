@@ -5,21 +5,21 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.125rem 5rem;
+    color:$gray;
     ul {
         display: flex;
         list-style-type: none;
         gap: 2rem;
-        color:$nav-text-color;
     }
-    .botao, .botao-cadastrar{
+    .header__button, .header__button-sing-up{
         background-color: transparent;
         border: none;
-        color:$nav-text-color;
+        color:$gray;
         font-size: 1rem;
         font-weight: 500;
         padding: 0.625rem 1.125rem;
     }
-    .botao-cadastrar{
+    .header__button-sing-up{
         background-color: $red;
         color:$white;
         border-radius: 0.5rem;
