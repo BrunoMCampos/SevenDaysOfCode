@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+html, body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.125rem 5rem;
+}
+.header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  color: #667085;
+}
+.header .botao, .header .botao-cadastrar {
+  background-color: transparent;
+  border: none;
+  color: #667085;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.625rem 1.125rem;
+}
+.header .botao-cadastrar {
+  background-color: #8E2424;
+  color: #FFFFFF;
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
