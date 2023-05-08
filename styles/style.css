@@ -48,4 +48,27 @@ html, body {
   font-weight: 400;
   font-size: 1.25rem;
   color: #667085;
+}
+
+.metrics {
+  display: grid;
+  padding: 0 7rem 6rem 7rem;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.metrics span {
+  color: #8E2424;
+  font-weight: 600;
+  font-size: 3.75rem;
+}
+.metrics h3 {
+  color: #101828;
+  font-size: 1.125rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.metrics p {
+  color: #667085;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

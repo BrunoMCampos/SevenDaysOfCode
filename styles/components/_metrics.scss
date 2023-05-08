@@ -1,0 +1,21 @@
+.metrics {
+    display: grid;
+    padding: 0 7rem 6rem 7rem;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2rem;
+    span {
+        color: $red;
+        font-weight: 600;
+        font-size:3.75rem;
+    }
+    h3{
+        color: $black;
+        font-size:1.125rem;
+        margin-top:0.75rem;
+        margin-bottom:0.5rem;
+    }
+    p{
+        color: $gray;
+        font-weight: 400;
+    }
+}
