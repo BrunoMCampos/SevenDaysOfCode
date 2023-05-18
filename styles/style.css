@@ -105,7 +105,7 @@ html, body {
   display: flex;
   flex-direction: column;
   color: #101828;
-  padding: 0 21rem;
+  padding: 0 336px 48px 336px;
 }
 .vacancies__container {
   display: flex;
@@ -128,4 +128,34 @@ html, body {
 .vacancies .vacancy-container__tags {
   color: #667085;
   margin-right: 24px;
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #101828;
+  padding: 64px;
+}
+.testimony__title {
+  color: #8E2424;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 16px;
+}
+.testimony__description {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+.testimony img {
+  align-self: center;
+  margin-bottom: 16px;
+}
+.testimony__person {
+  margin-bottom: 4px;
+}
+.testimony__job {
+  font-weight: 400;
+  color: #667085;
+  font-size: 0.875;
 }/*# sourceMappingURL=style.css.map */

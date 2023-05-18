@@ -1,0 +1,31 @@
+@import '../abstract/variables';
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: $black;
+    padding: 64px;
+    &__title {
+        color: $red;
+        font-weight: 600;
+        font-size: 0.875rem;
+        margin-bottom: 16px;
+    }
+    &__description {
+        font-size: 2rem;
+        margin-bottom: 32px;
+    }
+    img{
+        align-self: center;
+        margin-bottom: 16px;
+    }
+    &__person{
+        margin-bottom: 4px;
+    }
+    &__job{
+        font-weight: 400;
+        color: $gray;
+        font-size: 0.875;
+    }
+}
