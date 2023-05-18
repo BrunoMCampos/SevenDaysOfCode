@@ -99,4 +99,33 @@ html, body {
 }
 .searching-talents img {
   width: 100%;
+}
+
+.vacancies {
+  display: flex;
+  flex-direction: column;
+  color: #101828;
+  padding: 0 21rem;
+}
+.vacancies__container {
+  display: flex;
+  flex-direction: column;
+}
+.vacancies__container__title {
+  font-size: 1.25rem;
+  margin-bottom: 32px;
+}
+.vacancies .vacancy-container {
+  padding: 24px 24px 28px 24px;
+  margin-bottom: 24px;
+  border: #EAECF0 1px solid;
+  border-radius: 16px;
+}
+.vacancies .vacancy-container__title {
+  font-size: 1.125rem;
+  margin-bottom: 32px;
+}
+.vacancies .vacancy-container__tags {
+  color: #667085;
+  margin-right: 24px;
 }/*# sourceMappingURL=style.css.map */

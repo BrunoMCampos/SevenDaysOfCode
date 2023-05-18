@@ -1,0 +1,30 @@
+@import '../abstract/variables';
+
+.vacancies {
+    display: flex;
+    flex-direction: column;
+    color: $black;
+    padding: 0 21rem;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        &__title {
+            font-size: 1.25rem;
+            margin-bottom: 32px;
+        }
+    }
+    .vacancy-container{
+        padding: 24px 24px 28px 24px;
+        margin-bottom: 24px;
+        border: $light-gray-border 1px solid;
+        border-radius: 16px;
+    }
+    .vacancy-container__title {
+        font-size: 1.125rem;
+        margin-bottom: 32px;
+    }
+    .vacancy-container__tags {
+        color: $gray;
+        margin-right: 24px;
+    }
+}
