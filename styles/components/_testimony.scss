@@ -6,6 +6,10 @@
     text-align: center;
     color: $black;
     padding: 64px;
+    background-color: rgba(196, 25, 25, 0.03);
+    margin: 0 112px 96px 112px;
+    padding: 64px;
+    border-radius: 16px;
     &__title {
         color: $red;
         font-weight: 600;
